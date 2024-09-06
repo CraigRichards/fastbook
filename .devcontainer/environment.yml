@@ -1,0 +1,35 @@
+name: work
+channels:
+  - defaults
+  - conda-forge
+  - fastai
+dependencies:
+  - python=3.11
+  - fastai
+  - gradio
+  - graphviz
+  - ipywidgets
+  - jupyterlab
+  - kaggle
+  - nbdev
+  - plotly
+  - seaborn
+  - statsmodels
+  - sympy
+  - timm
+  - pytorch
+  - torchvision
+  - transformers
+  - tensorflow[and-cuda]
+  - keras
+  - opencv
+  - optuna
+  - pip
+  - pip:
+      # Add any packages that are not available via conda
+      - fastkaggle
+      - duckduckgo-search
+      - pydicom
+      - optuna-fast-fanova
+      - fastbook
+      - gunicorn
